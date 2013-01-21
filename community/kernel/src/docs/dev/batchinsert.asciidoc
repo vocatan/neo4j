@@ -5,7 +5,7 @@ Batch Insertion
 Neo4j has a batch insertion facility intended for initial imports, which bypasses transactions and other checks in favor of performance.
 This is useful when you have a big dataset that needs to be loaded once.
 
-Batch insertion is inlcuded in the http://search.maven.org/#search|ga|1|neo4j-kernel[neo4j-kernel] component, which is part of all Neo4j distributions and editions.
+Batch insertion is included in the http://search.maven.org/#search|ga|1|neo4j-kernel[neo4j-kernel] component, which is part of all Neo4j distributions and editions.
 
 Be aware of the following points when using batch insertion:
 
